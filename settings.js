@@ -6,8 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 module.exports = {
 SESSION_ID: process.env.SESSION_ID || "",
-// add your Session Id ,session id starts with MALVIN-XD~
-
+// MALVIN-XD~UlBASTIb#KmZ8MhzVOEbEjTUHY_G2Sx6jlgsYeRwDWXo0X7bMwBI
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot
 
@@ -44,13 +43,13 @@ MENU_IMG: process.env.MENU_IMG || "https://files.catbox.moe/gld2vo.jpg",
 LIVE_MSG: process.env.LIVE_MSG || "> ✦ᴍᴀʟᴠɪɴ xᴅ✦ ɪs sᴘᴀʀᴋɪɴɢ ᴀᴄᴛɪᴠᴇ ᴀɴᴅ ᴀʟɪᴠᴇ\n\n\nᴋᴇᴇᴘ ᴜsɪɴɢ ✦ᴍᴀʟᴠɪɴ xᴅ v2✦ ғʀᴏᴍ ɴᴇxᴜs ᴛᴇᴄʜ ɪɴᴄ⚡\n\n\n*© ᴡʜᴀᴛꜱᴀᴘᴘ ʙᴏᴛ - ᴍᴅ\n\n> ɢɪᴛʜᴜʙ :* github.com/kingmalvn/MALVIN-XD",
 // add alive msg here 
 
-READ_MESSAGE: process.env.READ_MESSAGE || "false",
+READ_MESSAGE: process.env.READ_MESSAGE || "true",
 // Turn true or false for automatic read msgs
 
-AUTO_REACT: process.env.AUTO_REACT || "false",
+AUTO_REACT: process.env.AUTO_REACT || "true",
 // make this true or false for auto react on all msgs
 
-ANTI_BAD: process.env.ANTI_BAD || "false",
+ANTI_BAD: process.env.ANTI_BAD || "true",
 // false or true for anti bad words
 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
@@ -95,7 +94,7 @@ PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 
-AUTO_RECORDING: process.env.AUTO_RECORDING || "false",
+AUTO_RECORDING: process.env.AUTO_RECORDING || "true",
 // make it true for auto recoding 
 
 FAKE_RECORDING: process.env.FAKE_RECORDING || "false",
