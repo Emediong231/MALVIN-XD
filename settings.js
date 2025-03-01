@@ -72,13 +72,13 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
 // make true for send automatic voices
 
-AUTO_STICKER: process.env.AUTO_STICKER || "false",
+AUTO_STICKER: process.env.AUTO_STICKER || "true",
 // make true for automatic stickers 
 
-AUTO_REPLY: process.env.AUTO_REPLY || "false",
+AUTO_REPLY: process.env.AUTO_REPLY || "true",
 // make true or false automatic text reply 
 
-HEART_REACT: process.env.HEART_REACT || "false",
+HEART_REACT: process.env.HEART_REACT || "true",
 // make this true or false for heart reactions only 
 
 OWNER_REACT: process.env.OWNER_REACT || "true",
